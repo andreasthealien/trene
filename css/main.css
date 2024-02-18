@@ -4,6 +4,27 @@
     font-family: sans-serif;
 }
 
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* ---------- Header ---------- */
+header {
+    background-color: darkgray;
+    padding: 20px;
+    width: 100%-40px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    width: 300px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+/* ---------- Main ---------- */
+
 #div-splitt {
     margin: 0px auto;
     width: 300px;
@@ -21,6 +42,11 @@
 
 #table-splitt th, #table-splitt td {
     padding: 4px;
+}
+
+#warmup {
+    width: 325px;
+    margin: 0px auto;
 }
 
 hr {
@@ -44,4 +70,15 @@ hr {
 
 .day-program th {
     width: 275px;
+}
+
+#Kosthold {
+    width: 325px;
+    margin: 0px auto;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+    margin-top: 125px;
 }
