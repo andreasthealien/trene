@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#div-splitt {
+    margin: 0px auto;
+    width: 300px;
+    text-align: center;
+}
+
+#table-splitt {
+    margin: 0px auto;
+}
+
+#table-splitt, #table-splitt tr, #table-splitt th, #table-splitt td {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+#table-splitt th, #table-splitt td {
+    padding: 4px;
+}
+
+hr {
+    margin: 25px auto;
+    width: 90%;
+}
+
+#div-programs {
+    margin: 0px auto;
+    width: 325px;
+}
+
+.day-program, .day-program tr, .day-program th,.day-program td{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+.day-program th, .day-program td {
+    padding: 4px;
+}
+
+.day-program th {
+    width: 275px;
+}
